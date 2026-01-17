@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: 'Cairo', sans-serif;
+  background: #5adfd2;
+  color: #fff;
+}
+
+a { text-decoration: none; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  border-bottom: 1px solid #c9a24d;
+  background: #cb4848;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 800;
+  color: #c9a24d;
+}
+
+nav a {
+  margin: 0 12px;
+  color: #fff;
+}
+
+.cart {
+  font-size: 18px;
+}
+
+.hero {
+  height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,.9)),
+  url('https://images.unsplash.com/photo-1521334884684-d80222895322') center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-box {
+  border: 1px solid #c9a24d;
+  padding: 60px;
+}
+
+.hero h1 {
+  font-size: 46px;
+  color: #c9a24d;
+}
+
+.btn {
+  background: #c9a24d;
+  color: #000;
+  padding: 15px 40px;
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.section {
+  padding: 100px 60px;
+}
+
+.section.dark {
+  background: #77c7be;
+}
+
+.section h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #c9a24d;
+  margin-bottom: 60px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+  gap: 40px;
+}
+
+.product {
+  border: 1px solid #c9a24d;
+  padding: 20px;
+  text-align: center;
+  transition: .3s;
+}
+
+.product:hover {
+  transform: translateY(-10px);
+}
+
+.product img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+.price {
+  color: #c9a24d;
+  font-size: 20px;
+}
+
+.product button {
+  background: transparent;
+  border: 1px solid #c9a24d;
+  color: #c9a24d;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+  border-top: 1px solid #c9a24d;
+}
+.main-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 120px 20px 40px;
+}
+
+.main-title h1 {
+  font-size: 70px;
+  color: #c9a24d;
+  letter-spacing: 4px;
+}
